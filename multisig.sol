@@ -359,7 +359,7 @@ contract MultiSigWallet {
 
 
 /// @title Multisignature wallet with daily limit - Allows an owner to withdraw a daily limit without multisig.
-contract MultiSigWalletWithDailyLimit is MultiSigWallet {
+contract RPGMultiSigWalletWithDailyLimit is MultiSigWallet {
 
     event DailyLimitChange(uint dailyLimit);
 
